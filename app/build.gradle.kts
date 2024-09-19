@@ -7,10 +7,8 @@ android {
     namespace = "com.yourssohail.learnsupabase"
     compileSdk = 34
 
-    val key: String = com.android.build.gradle.internal.cxx.configure.gradleLocalProperties(rootDir)
-        .getProperty("supabaseKey")
-    val url: String = com.android.build.gradle.internal.cxx.configure.gradleLocalProperties(rootDir)
-        .getProperty("supabaseUrl")
+    val key: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVnemh1cmlpbXVndmtqaWF1cGhsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQwNzEzNjcsImV4cCI6MjAzOTY0NzM2N30.29e4s0hYCEB3e4m0GDB2WgSpEDbiJSSC4FOg5aU8ZOk"
+    val url: String = "https://egzhuriimugvkjiauphl.supabase.co"
 
 
     defaultConfig {
